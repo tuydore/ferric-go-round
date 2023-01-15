@@ -1,0 +1,16 @@
+[package]
+authors = ["Tudor Tomescu"]
+edition = "2021"
+name = "ferric-go-round"
+version = "0.1.0"
+
+[dependencies]
+anyhow = "1.0.68"
+image = "0.24.5"
+
+[dependencies.clap]
+features = ["derive", "wrap_help"]
+version = "4.1.1"
+
+[dev-dependencies]
+tempdir = "0.3.7"
